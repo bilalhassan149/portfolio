@@ -1,14 +1,14 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import SeekerIn from "../assets/img/h51.png";
-import Clinic from "../assets/img/h52.png";
-import NFT from "../assets/img/h53.png";
-import pc1 from "../assets/img/onepc.png";
-import pc2 from "../assets/img/twopc.jpg";
+import xunli_blue from "../assets/img/xunli_blue.jpg";
+import xunli_red from "../assets/img/xunli_red_2.jpg";
+import winlok from "../assets/img/winlok.jpg";
+import pc1 from "../assets/img/xunli_blue_pc_home.png";
+import pc2 from "../assets/img/xunli_red_pc.png";
 import pc3 from "../assets/img/threepc.jpg";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/xunli_blue_pc.png";
+import projImg2 from "../assets/img/xunli_red_pc_site.png";
+import projImg3 from "../assets/img/winlok_pc.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -17,19 +17,19 @@ export const Projects = () => {
 
   const projects1 = [
     {
-      title: "m.xunli10.com",
+      title: "m.xl0735.com",
       description: "Front-End Development",
-      imgUrl: SeekerIn,
+      imgUrl: xunli_blue,
     },
     {
-      title: "mbw.xunli05.com",
+      title: "m.xunli02.com",
       description: "Front-End Development",
-      imgUrl: Clinic,
+      imgUrl: xunli_red,
     } ,
     {
-      title: "Yongle.com",
+      title: "m.lok88.com",
       description: "Front-End Development",
-      imgUrl: NFT,
+      imgUrl: winlok,
     },
    
   ];
@@ -40,12 +40,12 @@ export const Projects = () => {
       imgUrl: pc1,
     },
     {
-      title: "pcw.xunli10.com",
+      title: "pc.xunli02.com",
       description: "Frontend Development",
       imgUrl: pc2,
     },
     {
-      title: "pc.yongle.com",
+      title: "lok88.com",
       description: "Frontend Development",
       imgUrl: pc3,
     }

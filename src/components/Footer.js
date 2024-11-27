@@ -14,14 +14,14 @@ export const Footer = () => {
           <Col size={12} sm={6}>
             {/* <img src={logo} alt="Logo" /> */}
           </Col>
-          <Col size={12} sm={6} className="text-center text-sm-end">
+          {/* <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
             <a target="_blank" href="https://www.linkedin.com/in/bilalha55an"><img src={navIcon1} alt="" /></a>
                 <a target="_blank" href="https://github.com/bilalhassan149" ><img src={navIcon2} alt="" /></a>
                 <a href="#"><img src={navIcon3} alt="" /></a>
             </div>
-            <p>© 2023 Bilal Hassan</p>
-          </Col>
+            <p>© 2023 Bilal Hassan</p> 
+          </Col> */}
         </Row>
       </Container>
     </footer>
